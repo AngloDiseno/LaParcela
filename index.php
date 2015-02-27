@@ -7,7 +7,7 @@
 	<title>La Parcela</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 <!--	<link rel="stylesheet" href="css/estilos.css"> -->
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="style.css">
 
 <!-- google analytics -->
 <script>
