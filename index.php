@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>La Parcela</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-<!--	<link rel="stylesheet" href="css/estilos.css"> -->
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="css/estilos.css"> -->
 	<link rel="stylesheet" href="style.css">
 
 <!-- google analytics -->
