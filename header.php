@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php bloginfo('name'); ?></title>
+	<title><?php bloginfo('name'); echo " | "; bloginfo('description' ); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>/bootstrap.min.css">
 	<!--<link rel="stylesheet" href="css/estilos.css"> -->
@@ -26,7 +26,7 @@
 </head>
 <body>
 <div class="container">
-	<header class="row">
+		<header class="row">
 		<h1><?php bloginfo('name'); ?></h1>
-		<span>alojamiento familiar</span>
+		<span><?php bloginfo('description'); ?></span>
 	</header>
